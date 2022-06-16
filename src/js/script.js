@@ -30,7 +30,6 @@ let totalVinho = quantidadeVinho * precoVinho;
 
 let total = totalRefrigerante + totalMacarrao + totalErvilha + totalArroz + totalFeijao + totalVinho;
 
-
 if(total % 2 == 0){
     let totalSemVinho = total - totalVinho;
     let metadeSemVinho = totalSemVinho / 2;
