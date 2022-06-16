@@ -16,7 +16,7 @@ let precoVinho = parseFloat(prompt("Digite o preço do vinho: por exemplo, 70.00
 
 let quantidadeRefrigerante = parseInt(prompt("Quantos refrigerantes você quer? Por exemplo, 3"));
 let quantidadeMacarrao = parseInt(prompt("Quantos macarrões você quer? Por exemplo, 4"));
-let quantidadeErvilha = parseInt(prompt("Quantos ervilhas você quer? Por exemplo 3"));
+let quantidadeErvilha = parseInt(prompt("Quantos ervilhas você quer? Por exemplo, 3"));
 let quantidadeArroz = parseInt(prompt("Quantos arrozes você quer? Por exemplo, 3"));
 let quantidadeFeijao = parseInt(prompt("Quantos feijões você quer? Por exemplo, 2"));
 let quantidadeVinho = parseInt(prompt("Quantos vinhos você quer? Por exemplo, 3"));
