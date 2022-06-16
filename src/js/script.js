@@ -33,9 +33,9 @@ let total = totalRefrigerante + totalMacarrao + totalErvilha + totalArroz + tota
 
 if(total % 2 == 0){
     let totalSemVinho = total - totalVinho;
-    let metade = totalSemVinho / 2;
-    console.log(`O total da compra é ${total} reais. Você deverá pagar ${metade} reais e o seu amigo pagará ${metade + totalVinho} reais`);
-    alert(`O total da compra é ${total} reais. Você deverá pagar ${metade} reais e o seu amigo pagará ${metade + totalVinho} reais`);
+    let metadeSemVinho = totalSemVinho / 2;
+    console.log(`O total da compra é ${total} reais. Você deverá pagar ${metadeSemVinho} reais e o seu amigo pagará ${metadeSemVinho + totalVinho} reais`);
+    alert(`O total da compra é ${total} reais. Você deverá pagar ${metadeSemVinho} reais e o seu amigo pagará ${metadeSemVinho + totalVinho} reais`);
 }
 else{
     let metade = total / 2;
